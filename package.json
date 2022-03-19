@@ -1,5 +1,6 @@
 {
   "name": "backup-watcher",
+  "description": "Pequeno programa para fazer backup em tempo real",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
