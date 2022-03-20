@@ -1,3 +1,3 @@
-export function soma(a: number, b: number) {
-  return a + b;
-}
+export const wait = (timeout: number): Promise<any> => {
+  return new Promise(resolve => setTimeout(resolve, timeout));
+};

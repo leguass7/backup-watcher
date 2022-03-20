@@ -1,0 +1,6 @@
+{
+    "input": "D:/input",
+    "output": "D:/temp",
+    "logPath": "D:/logs",
+    "ext": ["txt", "xlsx"]
+}

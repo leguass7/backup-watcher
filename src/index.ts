@@ -1,5 +1,5 @@
-import { soma } from './helpers';
+import { BackupWatcher } from '#/services/BackupWatcher';
 
-const test = 'teste';
+const backupWatcher = new BackupWatcher();
 
-console.log('INICIADO 1', test, soma(1, 3));
+backupWatcher.start();
