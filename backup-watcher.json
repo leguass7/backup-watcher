@@ -1,6 +1,6 @@
 {
-    "input": "D:/input",
-    "output": "D:/temp",
-    "logPath": "D:/logs",
-    "ext": ["txt", "xlsx"]
+    "input": "Z:/",
+    "output": "D:/backup-whatcher-output",
+    "logPath": "D:/backup-whatcher-output/logs",
+    "ext": ["emb", "EMB"]
 }

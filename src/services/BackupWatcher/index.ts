@@ -96,6 +96,8 @@ export class BackupWatcher {
     this.watcher = chokidar.watch(watchArr, {
       ignoreInitial: true,
       awaitWriteFinish: { pollInterval: 100, stabilityThreshold: 2000 },
+      followSymlinks: false,
+      usePolling: true
     });
 
     this.watcher.on('ready', () => {
